@@ -6,11 +6,16 @@ import { InMemoryCache} from 'apollo-cache-inmemory';
 import {HttpClientModule} from '@angular/common/http';
 import {HttpLinkModule, HttpLink} from 'apollo-angular-link-http';
 import { AppComponent } from './app.component';
+import { ListComponent } from './list/list.component';
+import { CourseService } from './course.service';
+import { ItemComponent } from './item/item.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListComponent,
+    ItemComponent
   ],
   imports: [
     BrowserModule,
@@ -18,7 +23,7 @@ import { AppComponent } from './app.component';
     ApolloModule,
     HttpLinkModule
   ],
-  providers: [],
+  providers: [CourseService],
   bootstrap: [AppComponent]
 })
 export class AppModule {

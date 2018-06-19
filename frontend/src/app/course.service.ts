@@ -32,7 +32,7 @@ export class CourseService {
     );
   }
 
-  upvoteCourse(id: string) {
+  upvoteCourse(id: String) {
     return this.apollo.mutate({
       mutation: gql`
     mutation upvote($id: String!){
@@ -48,7 +48,7 @@ export class CourseService {
     });
   }
 
-  downvoteCourse(id: string) {
+  downvoteCourse(id: String) {
     return this.apollo.mutate({
       mutation: gql`
       mutation downvote($id: String!){
