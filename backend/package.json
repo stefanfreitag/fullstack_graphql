@@ -1,14 +1,14 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend for a full stack GraphQL-Angular demo.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "babel-watch server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [ "graphql", "angular"],
+  "author": "Stefan Freitag",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -18,8 +18,10 @@
   },
   "dependencies": {
     "apollo-server-express": "^1.3.2",
+    "cors": "^2.8.4",
     "express": "^4.16.2",
     "graphql": "^0.13.0",
-    "graphql-tools": "^2.20.2"
+    "graphql-tools": "^2.20.2",
+    "jshint": "^2.9.5"
   }
 }
