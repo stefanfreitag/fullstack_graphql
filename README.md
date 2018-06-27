@@ -37,7 +37,7 @@ Express server running on port 4000
 ```
 
 You can open the URL  http://localhost:4000/graphiql in the browser to access
-the GraphiQL UI. It can be used to queryy/ modify data. To e.g. retrieve the ids
+the GraphiQL UI. It can be used to query/ modify data. To e.g. retrieve the ids
 of all known courses
 
 ```
