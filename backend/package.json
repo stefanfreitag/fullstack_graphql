@@ -7,21 +7,26 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "babel-watch server.js"
   },
-  "keywords": [ "graphql", "angular"],
+  "keywords": [
+    "graphql",
+    "angular"
+  ],
   "author": "Stefan Freitag",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-watch": "^2.0.7",
-    "mongoose": "^5.1.5"
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^7.0.0",
+    "mongoose": "^5.7.7"
   },
   "dependencies": {
-    "apollo-server-express": "^1.3.2",
-    "cors": "^2.8.4",
-    "express": "^4.16.2",
-    "graphql": "^0.13.0",
-    "graphql-tools": "^2.20.2",
-    "jshint": "^2.9.5"
+    "apollo-server-express": "^2.9.7",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "graphql-tools": "^4.0.6",
+    "jshint": "^2.10.2"
   }
 }
